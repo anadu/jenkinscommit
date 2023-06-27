@@ -5,6 +5,7 @@ pipeline {
             steps {
                 ls -lrt
             }
+        }  
         stage("Test") {
             when {
                 changelog ".*Test.*"
