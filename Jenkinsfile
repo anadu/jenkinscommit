@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("list") {
             steps {
-                ls -lrt
+                echo "test"
             }
         }  
         stage("Test") {
