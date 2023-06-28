@@ -6,9 +6,9 @@ pipeline {
                 echo "test"
             }
         }  
-        stage("Test") {
+        stage("Translate"){
             when {
-                changelog ".*Test.*"
+                changelog ".*Translate.*"
             }
             steps {
                 echo "Hello World!"
