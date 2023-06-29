@@ -11,7 +11,7 @@ pipeline {
                 changelog ".*Translate.*"
             }
             steps {
-                echo "Hello World!"
+                echo "Hello World!hiiiii"
             }
         }
     }
